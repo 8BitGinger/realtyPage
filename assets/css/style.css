@@ -56,7 +56,9 @@ footer{
   height: 100vh;
   left: 0;
   top: 0;
-  background-image: linear-gradient(to bottom, rgb(248, 248, 255), dodgerblue);
+  background-image: url(../images/blue.png);
+  background-position: center;
+  background-size: cover;
   border-right: 2px double rgb(143, 139, 139);
 }
 
@@ -187,7 +189,8 @@ footer p a:hover{
 
 .logo {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.315);
+  background-image: linear-gradient(to top, dodgerblue,white, white);
+  
   border-bottom: 2px solid rgba(128, 128, 128, 0.516);
 }
 
