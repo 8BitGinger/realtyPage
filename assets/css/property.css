@@ -5,7 +5,7 @@
 }
 
 .backer {
-    background-image: linear-gradient(to left, dodgerblue,white, white);
+    background-image: linear-gradient(to right, dodgerblue,white, white);
 }
 
 header {
@@ -43,7 +43,9 @@ h1 {
 .banner-pic {
     width: 270px;
     height: 250px;
-    background-color: dodgerblue;
+    background-color: white;
+    border: 5px solid dodgerblue;
+    box-shadow: 0 0 1px 1px white;
     border-radius: 50%;
     z-index: 1;
 }
@@ -86,16 +88,23 @@ h2 {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    height: fit-content;
-    padding: 25px;
-    background-color: rgba(1, 120, 255, 0.444);
+    height: 100%;
+    padding: 35px;
+    background-color: rgba(255, 255, 255, 0.688);
     border-radius: 10px;
     margin-left: 25px;
     margin-top: 10px;
+    border: 2px dashed white;
+    font-size: x-large;
 }
 
 .list-item {
     font-family: 'audiowide';
+}
+
+.sublist-item {
+    font-family: 'audiowide';
+    font-size: large;
 }
 
 .div1:hover,
@@ -121,10 +130,10 @@ h2 {
    margin: 0;
    margin-top: -50px;
    padding: 0;
-   background-color: rgba(255, 255, 255, 0.493);
-    backdrop-filter: blur(5px);
+   background-image: linear-gradient(to left, dodgerblue,white, white);
+   backdrop-filter: blur(5px);
     border-radius: 8px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 3px solid rgb(7, 6, 79);
     padding: 50px;
     padding-right: 0;
     overflow: hidden;
@@ -240,7 +249,7 @@ h2 {
 }
 
 .title {
-    margin-left: 30px;
+    margin: auto;
 }
 
 .maint {
@@ -260,27 +269,86 @@ form {
     border-radius: 15px;
     padding: 10px;
     background-color: dodgerblue;
+    border: 3px solid rgb(2, 40, 255);
 }
 
 textarea {
     height: 200px;
     border-radius: 8px;
+    background-color: rgb(206, 228, 246);
+    font-size: larger;
+    font-weight: 300;
+    font-family: 'rajdhani';
+
 }
 
 input {
     height: 30px;
     border-radius: 8px;
+    background-color: rgb(206, 228, 246);
+    font-family: 'rajdhani';
+    font-size: large;
 }
 
 select {
     border-radius: 8px;
     height: 40px;
+    background-color: rgb(206, 228, 246);
+    width: 70%;
+    margin: auto;
+    font-family: 'rajdhani';
+    text-align: center;
+    font-size: larger;
+}
+
+.option {
+    font-family: 'rajdhani';
+    font-size: larger;
+    text-align: center;
+    padding: 5px;
 }
 
 label {
     height: 30px;
     color: white;
-    font-size: x-large;
-    padding: 10px;
+    font-size: xx-large;
+    padding: 20px;
 }
 
+.smaller {
+    font-size: x-large;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    border-radius: 8px;
+    margin: auto;
+    margin: 15px auto;
+    font-size: larger;
+    background-color: rgb(241, 122, 122);
+    color: white;
+    font-family: 'rajdhani';
+}
+
+.red {
+    background-color: rgb(211, 30, 30);
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+
+.green {
+    font-size: large;
+    color: rgb(12, 112, 22);
+   
+}
+
+.blue {
+    font-size: large;
+    color: rgb(101, 101, 101);
+}
+
+.home {
+    margin-left: 100px;
+}

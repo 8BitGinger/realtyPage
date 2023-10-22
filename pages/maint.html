@@ -31,22 +31,23 @@
         <form>
             <label for="name">Name</label>
             <input id="name" type="text" placeholder="Name">
-            <label for="address">Service Address</label>
+            <label for="address" class="smaller">Service Address</label>
             <input id="address" type="text" placeholder="Address">
-            <label for="help">What can we help you with?</label>
+            <label for="help" class="smaller">What can we help you with?</label>
             <textarea id="help" placeholder="Describe the Issue"></textarea>
-            <label for="severity">Issue Severity</label>
+            <label for="severity" class="smaller">Issue Severity</label>
             <select id="severity" type="select">
-                <option>Low</option>
-                <option>Average</option>
-                <option>High</option>
-            </select>  
+                <option class="green">Low</option>
+                <option class="blue">Average</option>
+                <option class="red">High</option>
+            </select> 
+            <button class="submit" type="submit">Submit</button> 
         </form>
 
     </main>
 </div>
     <footer class="footer">
-        <a href="../index.html"><button class="btn home"><i class="fa-solid fa-house"></i></button></a>
+        <a href="../index.html"><button class="btn home-sub"><i class="fa-solid fa-house"></i></button></a>
     </footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
