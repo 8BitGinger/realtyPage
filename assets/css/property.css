@@ -352,3 +352,8 @@ label {
 .home {
     margin-left: 100px;
 }
+
+li:hover {
+    scale: 1.08;
+    transition: 0.03s;
+}
