@@ -189,7 +189,9 @@ footer p a:hover{
 
 .logo {
   width: 100%;
-  background-image: linear-gradient(to top, dodgerblue,white, white);
+  background-image: url(../images/weatherback.jpg);
+  background-size: cover;
+  background-position: center;
   
   border-bottom: 2px solid rgba(128, 128, 128, 0.516);
 }
@@ -264,7 +266,7 @@ h2 {
   body {
     margin: 0;
     width: 100%;
-    background-image: linear-gradient(to left, rgb(202, 228, 240), dodgerblue );
+    background-image: url(../images/blue.png);
   }
 
   .carousel {
@@ -278,7 +280,9 @@ h2 {
   img.head-pic {
     display: block;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.315);
+    background-image: url(../images/weatherback.jpg);
+    background-size: cover;
+    background-position: center;
     border-bottom: 2px solid rgba(128, 128, 128, 0.516);
   }
 
@@ -302,6 +306,7 @@ h2 {
   margin-top: 25px;
   margin-left: -25px;
   list-style: none;
+  margin-bottom: 50px;
 }
 
 .nav-item-m {

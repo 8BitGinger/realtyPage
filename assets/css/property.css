@@ -45,8 +45,9 @@ h1 {
 .banner-pic {
     width: 270px;
     height: 250px;
-    background-image: linear-gradient(to top, dodgerblue,white, rgb(166, 237, 241));
-
+    background-image: url(../images/weatherback.jpg);
+    background-size: cover;
+    background-position: center;
     border-radius: 50%;
     z-index: 1;
 }
