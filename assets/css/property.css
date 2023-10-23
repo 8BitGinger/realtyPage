@@ -7,6 +7,8 @@
 .backer {
     background-image: url(../images/blue.png);
     background-size: 100%;
+    background-size: cover;
+        
 }
 
 header {
@@ -30,7 +32,7 @@ h1 {
     display: flex;
     margin-top: 25px;
     margin-left: -50px;
-    background-image: linear-gradient(to right, rgb(166, 237, 241), dodgerblue);
+    background-image: linear-gradient(to right, rgb(166, 237, 241), rgba(30, 143, 255, 0.577));
     
     color: rgb(255, 255, 255);
     padding: 10px;
@@ -50,6 +52,7 @@ h1 {
     background-position: center;
     border-radius: 50%;
     z-index: 1;
+    
 }
 
 h2 {
@@ -79,7 +82,7 @@ h2 {
 h2 {
     color: rgb(255, 255, 255);
     font-size: xx-large;
-    background-image: linear-gradient(to left, rgb(166, 237, 241), dodgerblue);
+    background-image: linear-gradient(to left, rgb(166, 237, 241), rgba(30, 143, 255, 0.614));
     border: 2px solid navy;
     width: 40%;
     padding:5px;
@@ -93,11 +96,12 @@ h2 {
     width: fit-content;
     height: 100%;
     padding: 35px;
-    background-color: rgba(255, 255, 255, 0.688);
+    background-color: rgba(11, 152, 191, 0.768);
     border-radius: 10px;
     margin-left: 25px;
     margin-top: 10px;
     border: 2px dashed white;
+    color: white;
     font-size: x-large;
 }
 
@@ -110,6 +114,8 @@ h2 {
     font-size: large;
 }
 
+
+
 .div1:hover,
 .div2:hover,
 .div3:hover,
@@ -120,7 +126,7 @@ h2 {
 }
 
 .contact {
-    background-image: linear-gradient(to left, dodgerblue,rgb(166, 237, 241));
+    background-image: linear-gradient(to left, rgba(30, 143, 255, 0.54),rgb(166, 237, 241));
     backdrop-filter: blur(5px);
      border-radius: 8px;
      border: 3px solid rgb(7, 6, 79);
@@ -140,7 +146,7 @@ h2 {
    margin: 0;
    margin-top: -50px;
    padding: 0;
-   background-image: linear-gradient(to left, dodgerblue,rgb(166, 237, 241));
+   background-image: linear-gradient(to left, rgba(30, 143, 255, 0.592),rgba(166, 237, 241, 0.581));
    backdrop-filter: blur(5px);
     border-radius: 8px;
     border: 3px solid rgb(7, 6, 79);
@@ -371,4 +377,11 @@ li:hover {
 
 .nav-item {
     text-align: center;
+}
+
+.button, 
+.btn {
+    width: 75px;
+    height: 75px;
+    font-size: x-large;
 }
